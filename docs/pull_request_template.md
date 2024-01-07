@@ -3,9 +3,9 @@ User Story Number - User Story Number Summary as seen in Rally
 * extra Summary as needed
 
 
-** Changes *
+** Changes **
 
-** Developer Check list: *
+** Developer Check list: **
     *   Try not to approve PR until each box is checked or stricken out 
     *   Try not to add reviewer or assignees to PR until each box is checked or stricken out 
    - [ ] Conflicts were resolved, if there were any using the github's "Resolve Conflict" button    
@@ -15,7 +15,7 @@ User Story Number - User Story Number Summary as seen in Rally
    - [ ] Existing Gunit tests have appropriate code coverage and code coverage has not reduced
     
 
- ** Reviewer Check list: *
+ ** Reviewer Check list: **
     *   Try not to approve PR until each box is checked or stricken out 
      
    - [ ] Check code is not going to create errors. ex: Possible null pointer exceptions    
