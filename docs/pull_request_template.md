@@ -23,7 +23,7 @@ User Story Number - User Story Number Summary as seen in Rally
    - [ ] Documentation of code as appropriate. ex:- method level comments
    - [ ] Existing Gunit tests have appropriate code coverage and code coverage has not reduced
 
-** GUnit test results:**
+** GUnit test results: **
 
 Attached screenshot of GUnit test cases
 Attached screenshot of GUnit test cases
