@@ -1,14 +1,17 @@
 from openai import OpenAI
+import os
 
+print(os.getenv("OPENAI_API_KEY"))
 client = OpenAI(
-   api_key='API-KEY'
- )
+   api_key= os.getenv("OPENAI_API_KEY") )
 completion = client.chat.completions.create(
   model="text-embedding-ada-002",
   messages=[
-    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+    {"role": "system", "content": "Write a python script to print 'hello world'."}    
   ]
 )
 
-print(completion.choices[0].message)
+output = completion.choices[0]["text"]
+print(output)
+with open("output.py","w") as file:
+    file.write(output)
